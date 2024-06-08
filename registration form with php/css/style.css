@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(209, 156, 9);
+}
+.input-feild{
+    display: flex;
+    flex-direction: column;
+}
+.input-feild{
+    display: flex;
+    flex-direction: column;
+}
+.input-feild input,
+select,input[type="submit"]{
+    width: 100%;
+    outline: none;
+    padding: 6px 15px;
+}
+.grow{
+    flex-grow: 1;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.all{
+    flex-basis: 100%;
+}
+.column .input-feild{
+    margin: 10px 0;
+}
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  flex-direction: row;
+}
+.space-between {
+  justify-content: space-between;
+}

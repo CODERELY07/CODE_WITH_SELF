@@ -9,4 +9,5 @@
     if($conn->connect_error){
         echo "Connection Failed" . $conn->connect_error;
     }
+    echo "Success";
 ?>
