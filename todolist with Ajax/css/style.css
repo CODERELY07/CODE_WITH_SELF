@@ -1,0 +1,13 @@
+button{
+    border: none;
+    margin-inline: 10px;
+    outline: none;
+}
+.pointer{
+    cursor: pointer;
+}
+.pointer.line-through {
+    /* Apply text-decoration line-through */
+    text-decoration: line-through;
+    font-style: italic;
+}
